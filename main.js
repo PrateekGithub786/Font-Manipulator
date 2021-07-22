@@ -28,7 +28,7 @@ function gotResults(results){
 
 function draw(){
     background("#FF0000");
-    document.getElementById("value").innerHTML = "Width And The Height Of The Square Is " + difference;
+    document.getElementById("value").innerHTML = "The Size Of The Text Is: " + difference;
 
     textSize(difference);
     stroke("#FFE787");
